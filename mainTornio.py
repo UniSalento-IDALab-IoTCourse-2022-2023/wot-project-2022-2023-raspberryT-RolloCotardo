@@ -4,7 +4,7 @@ from random import *
 
 # Connessione al server
 
-client = ModbusClient(host="192.168.1.108", port=12345)
+client = ModbusClient(host="192.168.1.25", port=12345)
 client.open()
 
 lubrificante = 100
